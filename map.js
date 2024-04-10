@@ -2006,7 +2006,7 @@ map.on('click', 'events', (e) => {
     console.log("link is:" + regLink)
 
     if(!regLink){
-        console.log("no link")
+        console.log("no link present")
         $(".cancello").hide();
     }
     else{
